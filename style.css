@@ -16,27 +16,39 @@ main > section {
   width: 100%;
 }
 
-.user {
-  display: inline-block;
-}
-
-h1 {
-  font-size: x-large;
-}
-
-h2 {
-  font-size: medium;
-  color: #ABABAB;
-}
-
-.profile {
+article {
   border: 1px solid #ABABAB;
 }
 
 .profile img {
   width: 75px;
+  float: left;
+  display: block;
+}
+.profile aside {
+  float: left;
 }
 
+article section {
+  clear: both;
+}
+
+.dot {
+  display: block;
+  float: right;
+
+}
+
+.dotskill h3 {
+  float: right;
+}
+
+.lowerskill {
+  clear: both;
+}
+
+
+/*
 .skill {
   border-left: 1px solid #ABABAB;
   border-right: 1px solid #ABABAB;
@@ -49,8 +61,4 @@ h2 {
   border-bottom: 1px solid #ABABAB;
   border-bottom-left-radius: 5%;
   border-bottom-right-radius: 5%;
-}
-
-.name {
-  display: inline;
-}
+}*/
