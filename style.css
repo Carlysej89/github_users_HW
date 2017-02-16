@@ -1,6 +1,7 @@
 header {
   background-color: #5BC0DE;
   padding: 1em;
+  border-radius: 1em 1em 0 0;
 }
 
 header nav a {
@@ -9,6 +10,8 @@ header nav a {
 
 .leftURL {
   float: left;
+  margin-bottom: 1em;
+  /*padding-left: 12%;*/
 }
 
 .rightURL {
@@ -22,7 +25,7 @@ main {
 }
 
 main > section {
-  align: center;
+  padding-left: 12%;
 }
 
 h1 {
@@ -32,21 +35,18 @@ h1 {
 
 h2 {
   margin: 0;
-  color: #ABABAB;
+  color: #AAAAAA;
   font-size: medium;
 }
 
 h3 {
   font-size: medium;
-}
-
-.profilepic {
-  width: 100%;
+  font-weight: 500;
 }
 
 article {
-  border: 1px solid #ABABAB;
-  border-radius: 5%;
+  border: 1px solid #AAAAAA;
+  border-radius: 5px;
   margin: 1em;
   width: 325px;
   display: inline-block;
@@ -55,7 +55,8 @@ article {
   align: center;
 }
 .skillssection {
-  border-top: 1px solid #ABABAB;
+  border-top: 1px solid #AAAAAA;
+  padding: .3em 0 .3em 0;
 }
 
 article::after{
@@ -68,7 +69,9 @@ article::after{
   width: 75px;
   float: left;
   display: block;
-  padding: .5em;
+  margin: .5em;
+  border-radius: 5px;
+  border: 1px solid #AAAAAA;
 }
 
 .profile aside {
@@ -82,8 +85,7 @@ article section {
 }
 
 .dot {
-  display: inline;
-  height: 10px;
+  height: 12px;
 }
 
 .lang {
@@ -93,12 +95,13 @@ article section {
 
 .dotskill{
   float: right;
-  padding-top: .5em;
+  padding-top: .3em;
 }
 
 .lowerskill {
   clear: both;
-  border-top:  1px solid #ABABAB;
+  border-top: 1px solid #AAAAAA;
+  padding: .3em 0 .3em 0;
 }
 
 /*.upperskill {
