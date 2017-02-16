@@ -21,10 +21,11 @@ header nav a {
 }
 
 main {
-  padding-top: 1em;
+  padding-top: .8em;
 }
 
 main > section {
+  /*margin: 1em auto 0 auto;*/
   padding-left: 12%;
 }
 
@@ -35,7 +36,7 @@ h1 {
 
 h2 {
   margin: 0;
-  color: #AAAAAA;
+  color: #DDDDDD;
   font-size: medium;
 }
 
@@ -45,9 +46,9 @@ h3 {
 }
 
 article {
-  border: 1px solid #AAAAAA;
+  border: 1px solid #DDDDDD;
   border-radius: 5px;
-  margin: 1em;
+  margin: .8em;
   width: 325px;
   display: inline-block;
 }
@@ -55,7 +56,7 @@ article {
   align: center;
 }
 .skillssection {
-  border-top: 1px solid #AAAAAA;
+  border-top: 1px solid #DDDDDD;
   padding: .3em 0 .3em 0;
 }
 
@@ -71,7 +72,7 @@ article::after{
   display: block;
   margin: .5em;
   border-radius: 5px;
-  border: 1px solid #AAAAAA;
+  border: 1px solid #DDDDDD;
 }
 
 .profile aside {
@@ -100,7 +101,7 @@ article section {
 
 .lowerskill {
   clear: both;
-  border-top: 1px solid #AAAAAA;
+  border-top: 1px solid #DDDDDD;
   padding: .3em 0 .3em 0;
 }
 
