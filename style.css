@@ -5,11 +5,25 @@ header {
 
 header nav a {
   color: #FFFFFF;
+}
 
+main {
+  padding-top: 1em;
 }
 
 main > section {
   align: center;
+}
+
+h1 {
+  font-size: large;
+  margin: 0;
+}
+
+h2 {
+  margin: 0;
+  color: #ABABAB;
+  font-size: medium;
 }
 
 .profilepic {
@@ -18,15 +32,35 @@ main > section {
 
 article {
   border: 1px solid #ABABAB;
+  border-radius: 5%;
+  margin: 1em;
+  width: 325px;
+  display: inline-block;
+}
+.userrow{
+  align: center;
+}
+.skillssection {
+  border-top: 1px solid #ABABAB;
+}
+
+article::after{
+  content:'';
+  display: block;
+  clear: both;
 }
 
 .profile img {
   width: 75px;
   float: left;
   display: block;
+  padding: .5em;
 }
+
 .profile aside {
   float: left;
+  padding: .2em;
+  padding-top: .2em;
 }
 
 article section {
@@ -34,22 +68,38 @@ article section {
 }
 
 .dot {
-  display: block;
-  float: right;
-
+  display: inline;
+  height: 10px;
 }
 
-.dotskill h3 {
+.lang {
+  display: inline;
+  padding-right: .4em;
+}
+
+.dotskill{
   float: right;
+  padding-top: .5em;
 }
 
 .lowerskill {
   clear: both;
+  border-top:  1px solid #ABABAB;
 }
 
+/*.upperskill {
+  clear: both;
+  border-top:  1px solid #ABABAB;
+}*/
+
+.talent {
+  float: left;
+  padding: .4em;
+  margin: 0;
+}
 
 /*
-.skill {
+.upperskill {
   border-left: 1px solid #ABABAB;
   border-right: 1px solid #ABABAB;
   border-bottom: 1px solid #ABABAB;
